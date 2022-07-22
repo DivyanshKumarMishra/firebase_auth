@@ -10,7 +10,7 @@
 
         c. Disable google analytics for the project.
 
-3. Install via NPM
+3. Install via NPM (in your project)
 
         # Using npm
         npm install --save @react-native-firebase/app
