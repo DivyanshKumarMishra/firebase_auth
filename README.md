@@ -65,3 +65,15 @@
 9. Now use the code under Sign-in section of following link: (https://rnfirebase.io/auth/phone-auth) in project's App.js file.
 
 Video for reference: https://www.youtube.com/watch?v=3kFX3QLrpEU
+
+IMPORT USERS IN FIREBASE: (https://firebase.google.com/docs/auth/admin/import-users)
+
+The Firebase Admin SDK provides the 𝐀𝐮𝐭𝐡.𝐢𝐦𝐩𝐨𝐫𝐭𝐔𝐬𝐞𝐫𝐬() API for importing users in bulk to Firebase Authentication with elevated privileges. While this feature is also available in the Firebase CLI, the Admin SDK lets you upload existing users from an external authentication system or other Firebase project programmatically without having to create intermediate CSV or JSON files.
+
+The user import API offers the following advantages:
+
+        a. Ability to migrate users from an external authentication system using a different password hashing algorithm.
+        b. Ability to migrate users from another Firebase project.
+        c. Optimization for speedy and efficient bulk import operations. This operation processes users without checking for uid, email, phoneNumber or other identifier duplication.
+        d. Ability to migrate existing or create new OAuth users (Google, Facebook, etc).
+        e. Ability to import users with custom claims directly in bulk.
