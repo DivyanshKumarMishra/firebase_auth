@@ -64,4 +64,4 @@
 
 9. Now use the code under Sign-in section of following link: (https://rnfirebase.io/auth/phone-auth) in project's App.js file.
 
-Video for reference: https://www.youtube.com/watch?v=_msNczBgHUE
+Video for reference: https://www.youtube.com/watch?v=3kFX3QLrpEU
